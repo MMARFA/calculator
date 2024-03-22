@@ -1,4 +1,7 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
+// printing a WELLCOME Message
+console.log("\n\tWELLCOME to \`Arfat Asif\` - CLI simple calculator\n");
 // Asking Question from user through Inquirer
 let answer = await inquirer.prompt([
     { message: "Enter First Number", type: "number", name: "firstNumber" },
